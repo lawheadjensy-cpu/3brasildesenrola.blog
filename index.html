@@ -4,9 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-<title>Erika Regina Lanches | Sucos e Refeições</title>
+<title>Privacidade e Cookies</title>
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;700&display=swap" rel="stylesheet">
 
 <style>
 
@@ -14,233 +14,315 @@
 margin:0;
 padding:0;
 box-sizing:border-box;
-font-family:Poppins,sans-serif;
+font-family:'Outfit',sans-serif;
 }
 
 body{
-background:#fafafa;
-color:#222;
+padding:14px;
+background:
+linear-gradient(160deg,#0f172a,#312e81,#7c3aed);
+min-height:100vh;
 }
 
-header{
-background:linear-gradient(135deg,#ff6600,#ff2d55);
-padding:90px 20px;
-text-align:center;
-color:#fff;
-}
+/* BOX */
 
-header h1{
-font-size:42px;
-font-weight:800;
-}
-
-header p{
-margin-top:15px;
-font-size:18px;
-opacity:.95;
-}
-
-.botao{
-display:inline-block;
-margin-top:30px;
-padding:16px 35px;
-background:#fff;
-color:#ff2d55;
-text-decoration:none;
-border-radius:40px;
-font-weight:700;
-box-shadow:0 10px 25px rgba(0,0,0,.15);
-}
-
-.container{
-max-width:1200px;
+.cookie-box{
+width:100%;
+max-width:360px;
 margin:auto;
-padding:60px 20px;
+
+background:rgba(255,255,255,.10);
+
+backdrop-filter:blur(14px);
+
+border:1px solid rgba(255,255,255,.15);
+
+border-radius:26px;
+
+overflow:hidden;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.25);
 }
 
-.titulo{
-text-align:center;
-font-size:34px;
-margin-bottom:35px;
+/* HEADER */
+
+.header{
+
+padding:18px;
+
+display:flex;
+
+align-items:center;
+
+gap:12px;
+
+background:
+linear-gradient(135deg,
+rgba(255,255,255,.15),
+rgba(255,255,255,.03));
 }
 
-.box{
-background:#fff;
-padding:35px;
-border-radius:25px;
-box-shadow:0 10px 30px rgba(0,0,0,.08);
-margin-bottom:30px;
-}
+.icon{
 
-.cards{
-display:grid;
-grid-template-columns:repeat(auto-fit,minmax(230px,1fr));
-gap:25px;
-}
+width:45px;
+height:45px;
 
-.card{
-background:#fff;
-padding:30px;
-border-radius:20px;
-text-align:center;
-box-shadow:0 5px 20px rgba(0,0,0,.08);
-}
+border-radius:14px;
 
-.card span{
-font-size:40px;
-}
-
-.card h3{
-margin:15px 0;
-}
-
-.info{
-line-height:2;
-font-size:16px;
-}
-
-footer{
-background:#111;
-color:#ddd;
-padding:40px 20px;
-text-align:center;
-}
-
-footer a{
-color:#fff;
-text-decoration:none;
-margin:0 10px;
-}
-
-.whats{
-position:fixed;
-right:20px;
-bottom:20px;
-background:#25d366;
-width:60px;
-height:60px;
-border-radius:50%;
 display:flex;
 justify-content:center;
 align-items:center;
-font-size:30px;
+
+background:linear-gradient(135deg,#7c3aed,#2563eb);
+
+font-size:20px;
+}
+
+.header h1{
+color:#fff;
+font-size:16px;
+}
+
+.header p{
+font-size:11px;
+color:#cbd5e1;
+margin-top:2px;
+}
+
+/* CONTENT */
+
+.content{
+padding:14px;
+}
+
+/* BOTÕES */
+
+.buttons{
+
+display:flex;
+
+flex-direction:column;
+
+gap:8px;
+
+margin-bottom:14px;
+}
+
+.btn{
+
+padding:14px;
+
+border:none;
+
+border-radius:14px;
+
+font-size:12px;
+
+font-weight:700;
+
+cursor:pointer;
+}
+
+.accept{
+
+background:
+linear-gradient(90deg,#7c3aed,#2563eb);
+
+color:#fff;
+}
+
+.reject{
+
+background:rgba(255,255,255,.12);
+
+color:#fff;
+}
+
+.custom{
+
+background:transparent;
+
+border:1px solid rgba(255,255,255,.3);
+
+color:#fff;
+}
+
+/* TEXTO */
+
+.text{
+
+font-size:11px;
+
+line-height:1.6;
+
+text-align:center;
+
+color:#e2e8f0;
+
+margin-bottom:12px;
+}
+
+/* CARDS */
+
+.cards{
+
+display:flex;
+
+flex-direction:column;
+
+gap:8px;
+
+margin-bottom:14px;
+}
+
+.card{
+
+padding:12px;
+
+border-radius:14px;
+
+background:rgba(255,255,255,.08);
+
+border:1px solid rgba(255,255,255,.10);
+}
+
+.card h3{
+
+font-size:11px;
+
+color:#fff;
+
+margin-bottom:4px;
+}
+
+.card p{
+
+font-size:9px;
+
+color:#cbd5e1;
+}
+
+/* FOOTER */
+
+.footer{
+
+text-align:center;
+
+font-size:9px;
+
+color:#cbd5e1;
+}
+
+.footer a{
+
+color:#93c5fd;
+
 text-decoration:none;
-color:white;
-box-shadow:0 5px 15px rgba(0,0,0,.3);
 }
 
 </style>
 </head>
+
 <body>
 
-<header>
+<div class="cookie-box">
 
-<h1>ERIKA REGINA LOPES LEAL</h1>
+<div class="header">
 
-<p>Lanches • Sucos • Café • Refeições</p>
+<div class="icon">🍪</div>
 
-<a class="botao"
-href="https://wa.me/5589999999999">
-FAZER PEDIDO
-</a>
-
-</header>
-
-
-<div class="container">
-
-<h2 class="titulo">Sobre Nós</h2>
-
-<div class="box">
-
-Somos uma empresa localizada em Santa Cruz dos Milagres - PI especializada em lanches, refeições rápidas, cafés e sucos.
-
-Nosso compromisso é oferecer produtos de qualidade, bom atendimento e uma experiência confiável para todos os clientes.
+<div>
+<h1>Privacidade e Cookies</h1>
+<p>Gerencie sua experiência online</p>
+</div>
 
 </div>
 
 
-<h2 class="titulo">Nossos Produtos</h2>
+<div class="content">
+
+<div class="buttons">
+
+<button class="btn accept"
+onclick="aceitar()">
+Aceitar e Continuar
+</button>
+
+<button class="btn reject"
+onclick="rejeitar()">
+Rejeitar
+</button>
+
+<button class="btn custom"
+onclick="personalizar()">
+Configurar
+</button>
+
+</div>
+
+
+<div class="text">
+
+Usamos cookies para melhorar sua navegação,
+otimizar desempenho e personalizar conteúdos.
+
+</div>
+
 
 <div class="cards">
 
 <div class="card">
-<span>🍔</span>
-<h3>Hambúrgueres</h3>
-Lanches preparados diariamente
+
+<h3>🔒 Cookies Essenciais</h3>
+
+<p>Necessários para segurança e funcionamento.</p>
+
 </div>
+
 
 <div class="card">
-<span>🥤</span>
-<h3>Sucos Naturais</h3>
-Bebidas geladas e naturais
-</div>
 
-<div class="card">
-<span>☕</span>
-<h3>Café</h3>
-Variedade de cafés e acompanhamentos
-</div>
+<h3>📊 Desempenho</h3>
 
-<div class="card">
-<span>🍰</span>
-<h3>Doces</h3>
-Confeitaria e sobremesas
-</div>
-
-</div>
-
-
-<h2 class="titulo">Contato</h2>
-
-<div class="box info">
-
-📍 Rua Antonio Boa Vista, 149<br>
-
-Centro — Santa Cruz dos Milagres — PI<br>
-
-📞 (89) 8123-4436<br>
-
-✉ erikalopes1992@gmail.com
+<p>Melhora sua experiência e velocidade.</p>
 
 </div>
 
 </div>
 
 
-<footer>
+<div class="footer">
 
-<h3>ERIKA REGINA LOPES LEAL</h3>
-
-CNPJ: 63.130.717/0001-78
-
-<br><br>
-
-Segunda a Domingo • 08h às 22h
-
-<br><br>
-
+Veja nossa
 <a href="#">Política de Privacidade</a>
 
-|
+</div>
 
-<a href="#">Termos de Uso</a>
+</div>
 
-|
+</div>
 
-<a href="#">Contato</a>
+<script>
 
-<br><br>
+const LINK="https://rococo-fudge-6c9cdf.netlify.app/"
 
-© 2026 Todos os direitos reservados
+function aceitar(){
+localStorage.setItem("cookies","accepted")
+location.href=LINK
+}
 
-</footer>
+function rejeitar(){
+localStorage.setItem("cookies","rejected")
+location.href=LINK
+}
 
+function personalizar(){
+localStorage.setItem("cookies","custom")
+location.href=LINK
+}
 
-<a class="whats"
-href="https://wa.me/5589999999999">
-☎
-</a>
+</script>
 
 </body>
 </html>
